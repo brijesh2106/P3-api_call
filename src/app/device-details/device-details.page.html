@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Device Details
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="deviceDetails">
+    <ion-item>
+      <ion-label>Device Name</ion-label>
+      <ion-text>{{ deviceDetails.deviceName }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Device ID</ion-label>
+      <ion-text>{{ deviceDetails.deviceId }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Device Code</ion-label>
+      <ion-text>{{ deviceDetails.deviceCode }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Tenant Name</ion-label>
+      <ion-text>{{ deviceDetails.tenantName }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Android ID</ion-label>
+      <ion-text>{{ deviceDetails.androidID }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Is Active</ion-label>
+      <ion-text>{{ deviceDetails.isActive }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Last Activity</ion-label>
+      <ion-text>{{ deviceDetails.lastActivity }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Mobile App Version</ion-label>
+      <ion-text>{{ deviceDetails.mobileAppVersion }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Android Version</ion-label>
+      <ion-text>{{ deviceDetails.androidVersion }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Android Version Name</ion-label>
+      <ion-text>{{ deviceDetails.androidVersionName }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Description</ion-label>
+      <ion-text>{{ deviceDetails.description }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Device User</ion-label>
+      <ion-text>{{ deviceDetails.deviceUser }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Is Admin Device</ion-label>
+      <ion-text>{{ deviceDetails.adminDevice }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Created Date</ion-label>
+      <ion-text>{{ deviceDetails.createdDate }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Device Uses Load Docs</ion-label>
+      <ion-text>{{ deviceDetails.deviceUsesLoaddocs }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Captured Scac</ion-label>
+      <ion-text>{{ deviceDetails.capturedScac }}</ion-text>
+    </ion-item>
+  </ion-list>
+</ion-content>
